@@ -1,0 +1,5 @@
+---
+'seald': patch
+---
+
+Initial version
