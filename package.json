@@ -1,5 +1,41 @@
 {
   "dependencies": {
     "tweetnacl": "^1.0.3"
+  },
+  "name": "seald",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "heft build",
+    "test": "heft test",
+    "prepare": "heft build && ./scripts/generate-api-docs",
+    "release": "./scripts/release",
+    "format": "prettier --write .",
+    "api": "./scripts/generate-api-docs"
+  },
+  "files": [
+    "src",
+    "lib",
+    "lib-commonjs",
+    "dist"
+  ],
+  "main": "./lib-commonjs/index.js",
+  "module": "./lib/index.js",
+  "types": "./dist/seald.d.ts",
+  "docModel": "./dist/seald.api.json",
+  "devDependencies": {
+    "@changesets/cli": "2.23.0",
+    "@rushstack/heft": "0.45.12",
+    "@rushstack/heft-web-rig": "0.10.15",
+    "@types/heft-jest": "1.0.3",
+    "@types/node": "^18.6.5",
+    "prettier": "2.7.1"
+  },
+  "homepage": "https://github.com/dtinth/seald#readme",
+  "bugs": {
+    "url": "https://github.com/dtinth/seald#issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtinth/seald.git"
   }
 }
