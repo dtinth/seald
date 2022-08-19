@@ -4,10 +4,10 @@
 
 ```ts
 
-// @public (undocumented)
+// @public
 export function seal(str: string, publicKey: string): string;
 
-// @public (undocumented)
+// @public
 export function unseal(str: string, keys: Record<string, string>): string;
 
 // (No @packageDocumentation comment for this package)
