@@ -2,6 +2,7 @@ import nacl from 'tweetnacl'
 import { randomBytes } from 'crypto'
 
 /**
+ * Seals a string
  * @public
  * @param str - Text to seal
  * @param publicKey - NaCl public key of the recipient
@@ -27,6 +28,7 @@ export function seal(str: string, publicKey: string) {
 }
 
 /**
+ * Unseals a string that contains a sealed string
  * @public
  * @param str - The text which contains sealed parts
  * @param keys - A mapping from public key to secret key
