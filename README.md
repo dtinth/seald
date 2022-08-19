@@ -65,3 +65,10 @@ The sealed data has this syntax:
 ```
 (SEALD;PublicKey;SealerPublicKey;Nonce;Payload)
 ```
+
+## API reference
+
+<https://apiref.page/package/seald>
+
+[![API reference screenshot](https://ss.dt.in.th/api/screenshots/apiref-seald.png)](https://apiref.page/package/seald)
+
