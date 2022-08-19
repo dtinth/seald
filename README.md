@@ -71,4 +71,3 @@ The sealed data has this syntax:
 <https://apiref.page/package/seald>
 
 [![API reference screenshot](https://ss.dt.in.th/api/screenshots/apiref-seald.png)](https://apiref.page/package/seald)
-
