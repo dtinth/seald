@@ -4,5 +4,7 @@
   "initialVersions": {
     "seald": "0.0.1"
   },
-  "changesets": []
+  "changesets": [
+    "beige-falcons-draw"
+  ]
 }
