@@ -3,7 +3,7 @@
     "tweetnacl": "^1.0.3"
   },
   "name": "seald",
-  "version": "0.0.2-next.0",
+  "version": "0.0.2",
   "scripts": {
     "build": "heft build",
     "test": "heft test",
