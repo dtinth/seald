@@ -3,7 +3,7 @@
     "tweetnacl": "^1.0.3"
   },
   "name": "seald",
-  "version": "0.0.1",
+  "version": "0.0.2-next.0",
   "scripts": {
     "build": "heft build",
     "test": "heft test",
@@ -23,7 +23,7 @@
   "types": "./dist/seald.d.ts",
   "docModel": "./dist/seald.api.json",
   "devDependencies": {
-    "@changesets/cli": "2.23.0",
+    "@changesets/cli": "2.25.0",
     "@rushstack/heft": "0.45.12",
     "@rushstack/heft-web-rig": "0.10.15",
     "@types/heft-jest": "1.0.3",
