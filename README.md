@@ -2,6 +2,8 @@
 
 Encrypt part of your text file, powered by [TweetNaCl.js](https://tweetnacl.js.org/).
 
+> **Warning**: This package is unrelated to the end-to-end encryption SDK [Seald.io](https://www.seald.io/). If you are looking for the Seald.io SDK, please install the [@seald-io/sdk](https://www.npmjs.com/package/@seald-io/sdk) package.
+
 ## Example usage
 
 I have a `.env.staging` file.
