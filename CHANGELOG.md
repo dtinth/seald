@@ -1,5 +1,11 @@
 # seald
 
+## 0.0.3
+
+### Patch Changes
+
+- 76101ea: Add warning about potential confusion
+
 ## 0.0.2
 
 ### Patch Changes
