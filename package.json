@@ -24,15 +24,15 @@
   "docModel": "./dist/seald.api.json",
   "devDependencies": {
     "@changesets/cli": "2.25.0",
-    "@rushstack/heft": "0.45.12",
-    "@rushstack/heft-web-rig": "0.10.15",
+    "@rushstack/heft": "0.48.7",
+    "@rushstack/heft-web-rig": "0.12.10",
     "@types/heft-jest": "1.0.3",
     "@types/node": "^18.6.5",
     "prettier": "2.7.1"
   },
   "homepage": "https://github.com/dtinth/seald#readme",
   "bugs": {
-    "url": "https://github.com/dtinth/seald#issues"
+    "url": "https://github.com/dtinth/seald/issues"
   },
   "repository": {
     "type": "git",
